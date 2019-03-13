@@ -15,6 +15,8 @@ namespace WindowsFormsApplication1
         public Form1()
         {
             InitializeComponent();
+            ZabawkiDoDodania.Items.Add(new Car());
+
         }
 
         private void SpeedText_TextChanged(object sender, EventArgs e)
@@ -46,7 +48,11 @@ namespace WindowsFormsApplication1
 
         private void AddButton_Click(object sender, EventArgs e)
         {
-            DodaneZabawki.Items.Add(new Car("qwe"));
+            Object selectedItem = ZabawkiDoDodania.SelectedItem;
+           if(selectedItem is Car)
+            {
+                DodaneZabawki.Items.Add(new Car());
+            }
         }
 
         private void DodaneZabawki_SelectedIndexChanged(object sender, EventArgs e)

@@ -16,6 +16,9 @@ namespace WindowsFormsApplication1
         {
             name = _name;
         }
+        public Car()
+        {
+        }
         public Boolean accelerate(int _speed)
         {
             if (_speed > 0)
