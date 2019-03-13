@@ -10,10 +10,33 @@ namespace WindowsFormsApplication1
     {
 
         private int speed;
+        private string name;
 
-        public void accelerate(int _speed)
+        public Car(string _name)
         {
-            speed += speed;
+            name = _name;
+        }
+        public Boolean accelerate(int _speed)
+        {
+            if (_speed > 0)
+            {
+                speed += speed;
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+
+
+        public override string ToString()
+        {
+            return name;
         }
     }
+
+
+
 }

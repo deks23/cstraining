@@ -30,7 +30,7 @@
         {
             this.ZabawkiDoDodania = new System.Windows.Forms.ListBox();
             this.AddButton = new System.Windows.Forms.Button();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.DodaneZabawki = new System.Windows.Forms.ListBox();
             this.SpeedText = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.IncreaseButton = new System.Windows.Forms.Button();
@@ -45,6 +45,7 @@
             this.ZabawkiDoDodania.Name = "ZabawkiDoDodania";
             this.ZabawkiDoDodania.Size = new System.Drawing.Size(79, 95);
             this.ZabawkiDoDodania.TabIndex = 0;
+            this.ZabawkiDoDodania.SelectedIndexChanged += new System.EventHandler(this.ZabawkiDoDodania_SelectedIndexChanged);
             // 
             // AddButton
             // 
@@ -54,14 +55,16 @@
             this.AddButton.TabIndex = 1;
             this.AddButton.Text = "Add";
             this.AddButton.UseVisualStyleBackColor = true;
+            this.AddButton.Click += new System.EventHandler(this.AddButton_Click);
             // 
-            // listBox1
+            // DodaneZabawki
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(361, 58);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(120, 95);
-            this.listBox1.TabIndex = 2;
+            this.DodaneZabawki.FormattingEnabled = true;
+            this.DodaneZabawki.Location = new System.Drawing.Point(361, 58);
+            this.DodaneZabawki.Name = "DodaneZabawki";
+            this.DodaneZabawki.Size = new System.Drawing.Size(120, 95);
+            this.DodaneZabawki.TabIndex = 2;
+            this.DodaneZabawki.SelectedIndexChanged += new System.EventHandler(this.DodaneZabawki_SelectedIndexChanged);
             // 
             // SpeedText
             // 
@@ -109,7 +112,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1142, 680);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.DodaneZabawki);
             this.Controls.Add(this.AddButton);
             this.Controls.Add(this.ZabawkiDoDodania);
             this.Name = "Form1";
@@ -125,7 +128,7 @@
 
         private System.Windows.Forms.ListBox ZabawkiDoDodania;
         private System.Windows.Forms.Button AddButton;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox DodaneZabawki;
         private System.Windows.Forms.TextBox SpeedText;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button IncreaseButton;

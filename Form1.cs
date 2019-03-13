@@ -36,5 +36,22 @@ namespace WindowsFormsApplication1
         {
 
         }
+
+      
+
+        private void ZabawkiDoDodania_SelectedIndexChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void AddButton_Click(object sender, EventArgs e)
+        {
+            DodaneZabawki.Items.Add(new Car("qwe"));
+        }
+
+        private void DodaneZabawki_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

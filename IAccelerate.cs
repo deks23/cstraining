@@ -8,6 +8,6 @@ namespace WindowsFormsApplication1
 {
     interface IAccelerate
     {
-        void accelerate(int speed);
+        Boolean accelerate(int speed);
     }
 }
