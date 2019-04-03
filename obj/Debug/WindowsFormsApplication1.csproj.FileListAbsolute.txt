@@ -7,3 +7,12 @@ c:\users\dotnet-6\documents\visual studio 2015\Projects\WindowsFormsApplication1
 c:\users\dotnet-6\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
 c:\users\dotnet-6\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 c:\users\dotnet-6\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\dotnet-6\Source\Repos\cstraining\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\dotnet-6\Source\Repos\cstraining\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\dotnet-6\Source\Repos\cstraining\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\dotnet-6\Source\Repos\cstraining\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\dotnet-6\Source\Repos\cstraining\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\dotnet-6\Source\Repos\cstraining\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\dotnet-6\Source\Repos\cstraining\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\dotnet-6\Source\Repos\cstraining\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\dotnet-6\Source\Repos\cstraining\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache

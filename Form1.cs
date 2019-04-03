@@ -15,7 +15,7 @@ namespace WindowsFormsApplication1
         public Form1()
         {
             InitializeComponent();
-            ZabawkiDoDodania.Items.Add(new Car());
+            //ZabawkiDoDodania.Items.Add(new Car());
 
         }
 
